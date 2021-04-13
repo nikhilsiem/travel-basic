@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel waale ka naam and logo</title>
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+              <ul class="menu">
+                <li><a href="#sec1" class="tab">PLAN A TRIP</a></li>
+                <li><a href="#sec2" class="tab">PACKAGES</a></li>
+                <li><a href="#sec3" class="tab">ABOUT US</a></li>
+                <li><a href="#sec4" class="tab">CONTACT US</a></li>
+              </ul>
+              <div class="indicator">
+                <div class="indicator-line"></div>
+              </div>
+            </nav>
+          </header>
+          
+          <div class="wrapper">
+          
+            <section id="sec1" class="sec1">
+              <h3 class="sectionHeadings">PLAN A TRIP</h3>
+              <div style="text-align: center;">
+                <form class="Details">
+                  <div class="name">
+                    <label >Traveller's Name</label><br>
+                    <input type="text" id= "fname"> 
+                  </div><br>
+                
+                  <div class="date">
+                    <div class= "start">
+                      <label>Vacation Start Date</label>
+                      <input type="date"  id= "stdt">
+                    </div>
+                    <div class= "end">
+                      <label>Vacation End Date</label>
+                      <input type="date"  id= "endt">
+                    
+                    </div>
+                  </div><br>
+                  <div class= "emailid">
+                    <label>Phone number</label><br>
+                    <input type="tel" id= "email" pattern="[0-9]{10}" required> 
+                  </div><br> 
+                  <input type="submit" class="callButton"  id= "submit" value="ASK TO CALL">  
+                </form>
+              </div>  
+            </section>
+            
+            
+          
+            <section id="sec2" class="sec2">
+              <div class="heading2">
+                <h3 class="section Headings">SELECT FROM PACKAGES</h3>
+              </div>
+              <div class="outerbox">
+                  <a class="button button5" href="#city1" >
+                    <h4 class="packagePlace">City 1</h4>
+                  </a>
+                  <a class="button button5" href="#city2" >
+                    <h4 class="packagePlace"> City 2</h4>
+                  </a>
+                  <a class="button button5" href="#city3">
+                    <h4 class="packagePlace"> City 3</h4>
+                  </a>
+                  <a class="button button5" href="#city4">
+                    <h4 class="packagePlace">City 4</h4>
+                  </a>
+                  <a class="button button5" href="#city5">
+                    <h4 class="packagePlace">City 5</h4>
+                  </a>
+              </div>
+            </section>
+
+
+            <div class="accordion">
+              <section class="accordion-item">
+                  <h1>City 1</h1>
+                  <div class="accordion-item-content">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Bhitarkanika</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                  </div>
+              </section>
+              <section class="accordion-item">
+                  <h1> City 2</h1>
+                  <div class="accordion-item-content">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Deograh</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                  </div>
+              </section>
+              <section  class="accordion-item accordion-item--default">
+                  <h1> City 3</h1>
+                  <div class="accordion-item-content">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Simplipal</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                  </div>
+              </section>
+              <section class="accordion-item">
+                  <h1> City 4</h1>
+                  <div class="accordion-item-content">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Kuldiha</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                  </div>
+              </section>
+              <section class="accordion-item">
+                <h1> City 5</h1>
+                <div class="accordion-item-content">
+                  <ul class="packageList">
+                    <li class="listItem">3N/3D stay at Satkosia</li><br>
+                    <li class="listItem">Local Sight-seeing</li><br>
+                    <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                    <li class="listItem">Complimentary breakfast.</li><br>
+                  </ul>
+                </div>
+              </section>
+          </div>
+
+            <!--<section id="city1" class="packageInfo">
+              <div id="showhide">
+                <div class="heading3">
+                  <h3 class="section Headings">PACKAGE FOR BHITARKARNIKA INCLUDES</h3>
+                </div>
+                <div class="packagebox">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Bhitarkanika</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                </div>
+              </div>
+              
+            </section>
+
+            <section id="city2" class="packageInfo">
+              <div id="showhide">
+                <div class="heading3">
+                  <h3 class="section Headings">PACKAGE FOR DEOGARH INCLUDES</h3>
+                </div>
+                <div class="packagebox">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Deograh</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                </div>
+              </div>
+              
+            </section>
+
+            <section id="city3" class="packageInfo">
+              <div id="showhide">
+                <div class="heading3">
+                  <h3 class="section Headings">PACKAGE FOR SIMPLIPAL INCLUDES</h3>
+                </div>
+                <div class="packagebox">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Simplipal</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                </div>
+              </div>
+              
+            </section>
+
+            <section id="city4" class="packageInfo">
+              <div id="showhide">
+                <div class="heading3">
+                  <h3 class="section Headings">PACKAGE FOR KULDIHA INCLUDES</h3>
+                </div>
+                <div class="packagebox">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Kuldiha</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                </div>
+              </div>
+              
+            </section>
+
+            <section id="city5" class="packageInfo">
+              <div id="showhide">
+                <div class="heading3">
+                  <h3 class="section Headings">PACKAGE FOR SATKOSIA INCLUDES</h3>
+                </div>
+                <div class="packagebox">
+                    <ul class="packageList">
+                      <li class="listItem">3N/3D stay at Satkosia</li><br>
+                      <li class="listItem">Local Sight-seeing</li><br>
+                      <li class="listItem">Airport/Railway Station pickup/drop facility</li><br>
+                      <li class="listItem">Complimentary breakfast.</li><br>
+                    </ul>
+                </div>
+              </div>
+              
+            </section> -->
+            <div class="heading3">
+              <h3 class="section Headings">ABOUT US</h3>
+            </div>
+            <section id="sec3" class="aboutSec">
+              
+              
+            </section>
+          
+            <section id="sec4" class="sec4">
+              <div class="heading3">
+                <h3 class="section Headings">CONTACT US</h3>
+                <div class="row">
+                  <div class="col-md-8 text-center">
+                      <h2 style=" color:white; font-size: 21px; padding-left: 50%; padding-top: 80px; padding-bottom: 7px;">Drop in what are you looking for:</h2>
+                  </div>
+                </div>
+                <form>
+                  <div class="row">
+                      
+                          <div class="col-md-3" style="padding-bottom: 5px;">
+                              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                          </div>
+                          <div class="col-md-3" style="padding-bottom: 5px;">
+                              <input type="number" name="number" class="form-control" placeholder="Contact Number" required>
+                          </div>
+                          <div class="col-md-3" style="padding-bottom: 5px;">
+                              <input type="date" name="date" class="form-control" placeholder="Ener the date" required>
+                          </div>
+                          <div class="col-md-3" style="padding-bottom: 5px;">
+                              <select id="dates-field2" class="multiselect-ui form-control" multiple="multiple">
+                                  <option value="Bhitarkarnika">Package for Bhitarkarnika </option>
+                                  <option value="Deogarh">Package for Deogarh</option>
+                                  <option value="Simplipal">Package for Simplipal</option>
+                                  <option value="Kuldiha">Package for Kuldiha</option>
+                                  <option value="Satkosia">Package for Satkosia</option>
+                              </select>
+                          </div>
+                  </div>
+                  <div class="row">
+                      <div class="col" style="display: block; text-align: center; width: 33%; padding-top: 45px; padding-left: 43%;">
+                          <button type="submit" class="btn btn-lg btn-dark btn-block center col-md-3">Submit</button>
+                      </div>
+                  </div>
+                </form>
+                    <!-- ***** Mini Box End ***** -->
+                </div>
+            </div>
+              </div>
+              
+            </section>
+          
+          </div>
+          <script src="smoothscroll.js"></script>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("showhide");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+            
+    </body>
+</html>
